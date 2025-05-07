@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>TEO CRM</title>
+        <script src="index.js" defer></script>
+        <link rel="stylesheet" href="style.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="layout">
+            <header class="header">
+                <div class="header_container">
+                    <div class="title_block">
+                        <h1 class="title">TEO CRM</h1>
+                        <span class="title_text">Конструктор форм</span>
+                    </div>
+                    <div class="user_block">
+                        <p class="user_name">Александр</p>
+                        <div class="avatar">A</div>
+                    </div>
+                </div>
+            </header>
+            <main class="main">
+                <div class="main_wrapper">
+                    <section class="btns_management">
+                        <button class="button">Добавить раздел &nbsp +</button>
+                        <button class="button">Сгенерировать</button>
+                        <button class="button"><img src="./img/eye.slash.fill.png" alt="eye" /></button>
+                        <button class="button"><img src="./img/clock.arrow.circlepath.png" alt="clock" /></button>
+                        <button class="button"><img src="./img/fluent_save-16-filled.png" alt="save" /></button>
+                    </section>
+                    <h2 class="main_title">Разделы</h2>
+                    <div class="main_block">
+                        <aside class="aside">
+                            <button class="aside_button"><img src="./img/Group 107.svg" alt="group" />Заказ</button>
+                            <button class="aside_button"><img src="./img/Group 107.svg" alt="group" />Справочник</button>
+                            <button data-state="active" class="aside_button">
+                                <svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M2.16013 2.50589C2.85446 2.50589 3.40817 1.95218 3.40817 1.25784C3.40817 0.572296 2.85446 0.00979614 2.16013 0.00979614C1.47458 0.00979614 0.912079 0.572296 0.912079 1.25784C0.912079 1.95218 1.47458 2.50589 2.16013 2.50589ZM6.29099 2.10159H18.2265C18.7011 2.10159 19.0791 1.73245 19.0791 1.25784C19.0791 0.783234 18.7099 0.414093 18.2265 0.414093H6.29099C5.82516 0.414093 5.44724 0.783234 5.44724 1.25784C5.44724 1.73245 5.81638 2.10159 6.29099 2.10159ZM2.16013 7.91116C2.85446 7.91116 3.40817 7.35745 3.40817 6.66312C3.40817 5.97757 2.85446 5.41507 2.16013 5.41507C1.47458 5.41507 0.912079 5.97757 0.912079 6.66312C0.912079 7.35745 1.47458 7.91116 2.16013 7.91116ZM6.29099 7.50687H18.2265C18.7011 7.50687 19.0791 7.13773 19.0791 6.66312C19.0791 6.18851 18.7099 5.81937 18.2265 5.81937H6.29099C5.82516 5.81937 5.44724 6.18851 5.44724 6.66312C5.44724 7.13773 5.81638 7.50687 6.29099 7.50687ZM2.16013 13.3164C2.85446 13.3164 3.40817 12.7627 3.40817 12.0684C3.40817 11.3828 2.85446 10.8203 2.16013 10.8203C1.47458 10.8203 0.912079 11.3828 0.912079 12.0684C0.912079 12.7627 1.47458 13.3164 2.16013 13.3164ZM6.29099 12.9121H18.2265C18.7011 12.9121 19.0791 12.543 19.0791 12.0684C19.0791 11.5938 18.7099 11.2246 18.2265 11.2246H6.29099C5.82516 11.2246 5.44724 11.5938 5.44724 12.0684C5.44724 12.543 5.81638 12.9121 6.29099 12.9121Z"
+                                        fill="currentColor"
+                                    /></svg
+                                >Единица измерения
+                            </button>
+                        </aside>
+                        <section class="form">
+                            <div class="form_header">
+                                <div class="unit_block">
+                                    <img src="./img/list.bullet.svg" alt="list" />
+                                    <h3 class="unit_title">Единица измерения</h3>
+                                    <p class="unit_placeholder">(unit_of_measurement)</p>
+                                </div>
+                                <div class="form_header_buttons">
+                                    <button class="form_header_button"><</button
+                                    ><button class="form_header_button"><img src="./img/Vector.png" alt="bomb" /></button
+                                    ><button class="form_header_button">+</button>
+                                </div>
+                            </div>
+                            <div class="form_inputs">
+                                <div class="form_row row1">
+                                    <div class="input_container">
+                                        <span class="input_img move"><img src="./img/Group 107.svg" alt="group" /></span>
+                                        <p class="move">Наименование</p>
+                                        <input type="text" placeholder="(Name) - текст" class="form_input" />
+                                    </div>
+                                </div>
+                                <div class="form_row row2">
+                                    <div class="input_container">
+                                        <span class="input_img move"><img src="./img/Group 107.svg" alt="group" /></span>
+                                        <p class="move">Количество</p>
+                                        <input type="text" placeholder="(Amaunt) - текст" class="form_input" />
+                                    </div>
+                                </div>
+                                <div class="form_row row3">
+                                    <div class="input_container">
+                                        <span class="input_img move"><img src="./img/Group 107.svg" alt="group" /></span>
+                                        <p class="move">Наименование</p>
+                                        <input type="text" placeholder="(Name) - текст" class="form_input" />
+                                    </div>
+                                    <div class="input_container">
+                                        <span class="input_img move"><img src="./img/Group 107.svg" alt="group" /></span>
+                                        <p class="move">Наименование</p>
+                                        <input type="text" placeholder="(Name) - текст" class="form_input" />
+                                    </div>
+                                </div>
+                                <div class="form_row row4">
+                                    <div class="input_container">
+                                        <span class="input_img move"><img src="./img/Group 107.svg" alt="group" /></span>
+                                        <p class="move">Наименование</p>
+                                        <input type="text" placeholder="(Name) - текст" class="form_input" />
+                                    </div>
+                                    <div class="input_container">
+                                        <span class="input_img move"><img src="./img/Group 107.svg" alt="group" /></span>
+                                        <p class="move">Наименование</p>
+                                        <input type="text" placeholder="(Name) - текст" class="form_input" />
+                                    </div>
+                                    <div class="input_container">
+                                        <span class="input_img move"><img src="./img/Group 107.svg" alt="group" /></span>
+                                        <p class="move">Наименование</p>
+                                        <input type="text" placeholder="(Name) - текст" class="form_input" />
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <footer class="footer">
+                    <p>Название</p>
+                    <p>Директор</p>
+                    <p>Адрес</p>
+                    <p>Действия</p>
+                    <h5>Наименование</h5>
+                    <h5>Иванов Иван Иванович</h5>
+                    <h5>г. Москва, ул. Карла Маркса, д. 13</h5>
+                    <div class="footer_icons">
+                        <button><img src="./img/printer.fill.png" alt="printer" /></button>
+                        <button><img src="./img/doc.on.doc.fill.png" alt="docs" /></button>
+                        <button><img src="./img/eye.slash.fill.png" alt="eye" /></button>
+                        <button><img src="./img/highlighter.png" alt="pen" /></button>
+                        <button><img src="./img/trash.png" alt="trash" /></button>
+                    </div>
+                </footer>
+            </main>
+        </div>
+    </body>
+</html>
